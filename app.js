@@ -60,7 +60,7 @@ function title(path){
 // 渲染导航栏
 function nav(path){
     var html = "";
-    html += `<div style="max-width:150px;"><img class="mdui-typo-headline mdui-img-fluid folder" href="/"  style = "max-width: 100%;height: auto;width: auto/9;"src="https://ani.rip/cs/anics.png"></div>`;
+    html += `<div style="max-width:150px;"><img class="mdui-typo-headline mdui-img-fluid folder" href="/"  style = "max-width: 100%;height: auto;width: auto/9;"src="https://cdn.jsdelivr.net/gh/RyanL-29/cs/anics.png"></div>`;
     var arr = path.trim('/').split('/');
     var p = '/';
     if(arr.length > 0){
